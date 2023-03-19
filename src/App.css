@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  background-color: black;
+height: 100vh;
+display:  flex;
+overflow: hidden;
+}
+
+img{
+  width: 30%;
+  height: 100%;
+}
+
+.wr{
+
+  background-color: white;
+  width: 600px;
+  height: 400px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1{
+  font-size: 40px;
+  font-weight: 600;
+  color: #34568B;
+  margin: 40px 0;
+}
+
+button{
+  width: 150px;
+
+  height: 40px;
+  border-radius: 5px;
+  background-color: #34568B;
+  border: 1px solid #34568B;
+  columns: white;
+  font-size: 20px;
+  margin: 30px 0;
+}
+
+p{
+  font-weight: 550;
+  font-family:cursive ;
+}
